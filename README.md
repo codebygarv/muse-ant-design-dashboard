@@ -1,150 +1,185 @@
-# [Muse Ant Design Dashboard](https://demos.creative-tim.com/muse-ant-design-dashboard/#/dashboard?ref=readme-madd)
+# CoreUI Free React Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%React%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/muse-ant-design-dashboard.svg)](https://github.com/creativetimofficial/muse-ant-design-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-tailwind-dashboard-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/muse-ant-design-dashboard/issues?q=is%3Aissue+is%3Aclosed)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
+[![npm package][npm-coreui-badge]][npm-coreui]
+[![NPM downloads][npm-coreui-download]][npm-coreui]
+[![@coreui react](https://img.shields.io/badge/@coreui%20-react-lightgrey.svg?style=flat-square)](https://github.com/coreui/react)
+[![npm package][npm-coreui-react-badge]][npm-coreui-react]
+[![NPM downloads][npm-coreui-react-download]][npm-coreui-react]  
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/496/original/opt_md_ant_react_thumbnail.jpg?1629182839)
+[npm-coreui]: https://www.npmjs.com/package/@coreui/coreui
+[npm-coreui-badge]: https://img.shields.io/npm/v/@coreui/coreui.png?style=flat-square
+[npm-coreui-download]: https://img.shields.io/npm/dm/@coreui/coreui.svg?style=flat-square
+[npm-coreui-react]: https://www.npmjs.com/package/@coreui/react
+[npm-coreui-react-badge]: https://img.shields.io/npm/v/@coreui/react.png?style=flat-square
+[npm-coreui-react-download]: https://img.shields.io/npm/dm/@coreui/react.svg?style=flat-square
+[npm]: https://www.npmjs.com/package/@coreui/react
 
-Muse Ant Design Dashboard is a _free_ Admin Template based on two popular front-end technologies: _Ant Design & React_. It was built to simplify the developer's work and is comes with a fresh design inspired by Ant Design. All its components are built to fit perfectly with each other, while aligning to the Ant Design concepts.
+[![Bootstrap Admin Template](https://assets.coreui.io/products/coreui-free-bootstrap-admin-template-light-dark.webp)](https://coreui.io/product/free-react-admin-template/)
 
-Save weeks of time and build your perfect dashboard with this powerful template! It features 120 fully coded components and 7 example pages if you want to get inspiration or just show something directly to your clients. This beautiful admin also comes with 5 color filter choices for both the sidebar and the cards (blue, green, red, yellow and black), an option to have a transparent or fill sidebar and an option to have a fixed navbar.
+CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. The CoreUI Layout API lets you customize your project for almost any device – be it Mobile, Web or WebApp – CoreUI covers them all!
 
 ## Table of Contents
 
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Deploy](#deploy)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
+* [Versions](#versions)
+* [CoreUI PRO](#coreui-pro)
+* [CoreUI PRO React Admin Templates](#coreui-pro-react-admin-templates)
+* [Quick Start](#quick-start)
+* [Installation](#installation)
+* [Basic usage](#basic-usage)
+* [What's included](#whats-included)
+* [Documentation](#documentation)
+* [Versioning](#versioning)
+* [Creators](#creators)
+* [Community](#community)
+* [Support CoreUI Development](#support-coreui-development)
+* [Copyright and License](#copyright-and-license)
 
 ## Versions
 
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-tailwind-dashboard-react?ref=readme-madd)
-React
+* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
+* [CoreUI Free Angular Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
+* [CoreUI Free React.js Admin Template (Vite)](https://github.com/coreui/coreui-free-react-admin-template)
+* [CoreUI Free React.js Admin Template (Create React App)](https://github.com/coreui/coreui-free-react-admin-template-cra)
+* [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
 
-## Demo
+## CoreUI PRO
 
-- [Dashboard](https://demos.creative-tim.com/muse-ant-design-dashboard/#/dashboard?ref=readme-madd)
-- [Tables](https://demos.creative-tim.com/muse-ant-design-dashboard/#/tables?ref=readme-madd)
-- [Billing](https://demos.creative-tim.com/muse-ant-design-dashboard/#/billing?ref=readme-madd)
-- [RTL](https://demos.creative-tim.com/muse-ant-design-dashboard/#/rtl?ref=readme-madd)
-- [Profile](https://demos.creative-tim.com/muse-ant-design-dashboard/#/profile?ref=readme-madd)
-- [Sign In](https://demos.creative-tim.com/muse-ant-design-dashboard/#/sign-in?ref=readme-madd)
-- [Sign Up](https://demos.creative-tim.com/muse-ant-design-dashboard/#/sign-up?ref=readme-madd)
+* 💪  [CoreUI PRO Angular Admin Template](https://coreui.io/product/angular-dashboard-template/)
+* 💪  [CoreUI PRO Bootstrap Admin Template](https://coreui.io/product/bootstrap-dashboard-template/)
+* 💪  [CoreUI PRO Next.js Admin Template](https://coreui.io/product/next-js-dashboard-template/)
+* 💪  [CoreUI PRO React Admin Template](https://coreui.io/product/react-dashboard-template/)
+* 💪  [CoreUI PRO Vue Admin Template](https://coreui.io/product/vue-dashboard-template/)
 
-## Quick start
+## CoreUI PRO React Admin Templates
 
-Quick start options:
+| Default Theme | Light Theme |
+| --- | --- |
+| [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_default_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=default) | [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_light_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=light)|
 
-- Download from [Creative Tim](https://www.creative-tim.com/product/muse-ant-design-dashboard?ref=readme-madd).
+| Modern Theme | Bright Theme |
+| --- | --- |
+| [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_default_v3_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=modern) | [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_light_v3_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=bright)|
 
-## Terminal Commands
+## Quick Start
 
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root / directory and run npm install or (yarn install, if you're using yarn) to install our local dependencies.
+- [Download the latest release](https://github.com/coreui/coreui-free-react-admin-template/archive/refs/heads/main.zip)
+- Clone the repo: `git clone https://github.com/coreui/coreui-free-react-admin-template.git`
 
-## Deploy
+### Installation
 
-:rocket: You can deploy your own version of the template to Genezio with one click:
+``` bash
+$ npm install
+```
 
-[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/muse-ant-design-dashboard&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
+or
+
+``` bash
+$ yarn install
+```
+
+### Basic usage
+
+``` bash
+# dev server with hot reload at http://localhost:3000
+$ npm start 
+```
+
+or 
+
+``` bash
+# dev server with hot reload at http://localhost:3000
+$ yarn start
+```
+
+Navigate to [http://localhost:3000](http://localhost:3000). The app will automatically reload if you change any of the source files.
+
+#### Build
+
+Run `build` to build the project. The build artifacts will be stored in the `build/` directory.
+
+```bash
+# build for production with minification
+$ npm run build
+```
+
+or
+
+```bash
+# build for production with minification
+$ yarn build
+```
+
+## What's included
+
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+
+```
+coreui-free-react-admin-template
+├── public/          # static files
+│   ├── favicon.ico
+│   └── manifest.json
+│
+├── src/             # project root
+│   ├── assets/      # images, icons, etc.
+│   ├── components/  # common components - header, footer, sidebar, etc.
+│   ├── layouts/     # layout containers
+│   ├── scss/        # scss styles
+│   ├── views/       # application views
+│   ├── _nav.js      # sidebar navigation config
+│   ├── App.js
+│   ├── index.js
+│   ├── routes.js    # routes config
+│   └── store.js     # template state example 
+│
+├── index.html       # html template
+├── ...
+├── package.json
+├── ...
+└── vite.config.mjs  # vite config
+```
 
 ## Documentation
 
-Muse Ant Design Dashboard build using Material Tailwind and the documentation of Material Tailwind is hosted at [website](https://demos.creative-tim.com/muse-ant-design-dashboard/#/docs/overview?ref=readme-madd).
+The documentation for the CoreUI Admin Template is hosted at our website [CoreUI for React](https://coreui.io/react/docs/templates/installation/)
 
-### What's included
+## Versioning
 
-Within the download you'll find the following directories and files:
+For transparency into our release cycle and in striving to maintain backward compatibility, CoreUI Free Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
-```
-Muse Ant Design Dashboard
-    ├── muse-ant-design-dashboard
-    │   ├── public
-    │   │   ├── index.html
-    │   │   ├── favicon.png
-    │   │   ├── minifest.json
-    │   │   └── robots.txt
-    │   ├── src
-    │   │   ├── assets
-    │   │   │   ├── images
-    │   │   │   └── styles
-    │   │   ├── components
-    │   │   │   ├── chart
-    │   │   │   └── layout
-    │   │   ├── pages
-    │   │   │   ├── Billing.js
-    │   │   │   ├── Home.js
-    │   │   │   ├── Profile.js
-    │   │   │   ├── Rtl.js
-    │   │   │   ├── SignIn.js
-    │   │   │   ├── SignUp.js
-    │   │   │   └── Tables.js
-    │   │   ├── App.js
-    │   │   └── index.js
-    │   ├── CHANGELOG.md
-    │   ├── LICENSE
-    │   ├── package.json
-    │   ├── README.md
-    │   ├── .env
-```
+See [the Releases section of our project](https://github.com/coreui/coreui-free-react-admin-template/releases) for changelogs for each release version.
 
-## Browser Support
+## Creators
 
-At present, we officially aim to support the last two versions of the following browsers:
+**Łukasz Holeczek**
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+* <https://twitter.com/lukaszholeczek>
+* <https://github.com/mrholek>
 
-## Resources
+**Andrzej Kopański**
 
-- [Live Preview](https://demos.creative-tim.com/muse-ant-design-dashboard/#/?ref=readme-madd)
-- [Download Page](https://www.creative-tim.com/product/material-tailwind-dashboard-react?ref=readme-madd)
-- Documentation is [here](https://material-tailwind.com/documentation/quick-start?ref=readme-madd)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-madd)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-madd)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/muse-ant-design-dashboard/issues)
+* <https://github.com/xidedix>
 
-## Reporting Issues
+**CoreUI Team**
 
-We use GitHub Issues as the official bug tracker for the Muse Ant Design Dashboard. Here are some advices for our users that want to report an issue:
+* <https://twitter.com/core_ui>
+* <https://github.com/coreui>
+* <https://github.com/orgs/coreui/people>
 
-1. Make sure that you are using the latest version of the Muse Ant Design Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/muse-ant-design-dashboard?ref=readme-madd).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+## Community
 
-## Technical Support or Questions
+Get updates on CoreUI's development and chat with the project maintainers and community members.
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-madd) instead of opening an issue.
+- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
+- Read and subscribe to [CoreUI Blog](https://coreui.ui/blog/).
 
-## Licensing
+## Support CoreUI Development
 
-- Copyright 2021 [Creative Tim](https://www.creative-tim.com?ref=readme-madd)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-madd)
+CoreUI is an MIT-licensed open source project and is completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by buying the [CoreUI PRO](https://coreui.io/pricing/?framework=react&src=github-coreui-free-react-admin-template) or by becoming a sponsor via [Open Collective](https://opencollective.com/coreui/).
 
-## Useful Links
+## Copyright and License
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-madd) from Creative Tim
+copyright 2025 creativeLabs Łukasz Holeczek.   
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-
-- [Freebies](https://www.creative-tim.com/templates/free?ref=readme-madd) from Creative Tim
-
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-madd) (earn money)
-
-##### Social Media
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
+Code released under [the MIT license](https://github.com/coreui/coreui-free-react-admin-template/blob/main/LICENSE).
